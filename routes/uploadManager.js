@@ -29,7 +29,7 @@ var options = {
     }
 };
 
-var uploader = require('blueimp-file-upload-expressjs')(options);
+var uploader = require('node-blueimp')(options);
 
 
 module.exports = function(router) {
